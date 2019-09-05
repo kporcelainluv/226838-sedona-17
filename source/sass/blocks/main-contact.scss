@@ -1,0 +1,133 @@
+.main-contact {
+  margin-top: 27px;
+}
+
+.main-contact__map-wrap {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("/img/icon-map-marker.svg");
+    top: 46%;
+    width: 27px;
+    height: 27px;
+    left: 42%;
+    transform: translate(42%, 0);
+  }
+}
+
+.main-contact__heading {
+  margin: auto;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  color: $main-black;
+}
+
+.main-contact__description {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: $light-black;
+  max-width: 270px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.main-contact__button {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: $white;
+  padding: 16px 46px;
+  background-color: #81b3d2;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+}
+
+.main-contact__button-wrap {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.main-contact__map {
+  width: 100%;
+}
+
+.main-contact__best-hotels {
+  display: none;
+}
+
+.main-contact__map-digital {
+  display: flex;
+}
+
+@media (min-width: $tablet-width) {
+  .main-contact {
+    margin-top: 50px;
+  }
+
+  .main-contact__heading {
+    font-size: 30px;
+    max-width: 434px;
+  }
+
+  .main-contact__description {
+    max-width: 445px;
+    margin-top: 26px;
+    margin-bottom: 42px;
+  }
+
+  .main-contact__button {
+    width: 458px;
+    padding: 17px 0;
+  }
+
+  .main-contact__best-hotels {
+    display: block;
+  }
+
+  .main-contact__button-wrap {
+    margin-bottom: 60px;
+  }
+
+  .main-contact__map-wrap {
+    &::after {
+      left: 47%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-contact__description {
+    margin-bottom: 47px;
+  }
+
+  .main-contact__button-wrap {
+    margin-bottom: 65px;
+  }
+
+  .main-contact__map-wrap {
+    &::after {
+      left: 48%;
+    }
+  }
+}

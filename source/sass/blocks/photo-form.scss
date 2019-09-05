@@ -1,0 +1,18 @@
+.photo-form__image {
+  height: 160px;
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-form__image {
+    height: 290px;
+    width: 100%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo-form__image {
+    height: 302px;
+    width: 100%;
+  }
+}
