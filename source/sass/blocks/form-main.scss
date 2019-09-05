@@ -1,0 +1,19 @@
+.form-main {
+  position: relative;
+  padding-top: 55px;
+}
+
+@media (min-width: $tablet-width) {
+  .form-main {
+    margin-top: -5px;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-main {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 0;
+  }
+}

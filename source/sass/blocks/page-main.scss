@@ -1,0 +1,17 @@
+.page-main {
+  padding-top: 55px;
+  position: relative;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main {
+    max-width: 1200px;
+    margin: auto;
+  }
+}

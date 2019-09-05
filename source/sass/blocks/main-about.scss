@@ -1,0 +1,542 @@
+.main-about__heading {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  text-align: center;
+  color: $main-black;
+  max-width: 255px;
+  margin: 40px auto 31px;
+}
+
+.main-about__icon {
+  fill: #81b3d2;
+}
+
+.main-about__description-wrap {
+  height: auto;
+}
+
+.main-about__subheading {
+  font-size: 14px;
+  color: $light-black;
+  margin: auto;
+  max-width: 255px;
+  margin-bottom: 29px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.main-about__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-about__header {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: auto;
+  max-width: 270px;
+}
+
+.main-about__order {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.44;
+  margin: auto;
+  text-align: center;
+  max-width: 70px;
+}
+
+.main-about__description {
+  padding-top: 15px;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+  color: $light-black;
+  line-height: 1.5;
+}
+
+.main-about__description--third {
+  width: 207px;
+}
+
+.main-about__description--fifth {
+  width: 248px;
+  padding-top: 15px;
+}
+
+.main-about__description--bridge {
+  padding-top: 16px;
+  line-height: 20px;
+  max-width: 259px;
+}
+
+.main-about__header-wrap {
+  padding-top: 53px;
+  padding-bottom: 40px;
+  background-color: $grey-background;
+}
+
+.main-about__life {
+  max-width: 265px;
+}
+
+.main-about__header-wrap--third {
+  padding-top: 25px;
+  padding-bottom: 0;
+  position: relative;
+
+  &::after {
+    content: "";
+    border-bottom: 1px solid black;
+    opacity: 0.1;
+    width: 280px;
+    bottom: -26px;
+    left: 18px;
+    position: absolute;
+    z-index: 1000;
+  }
+}
+
+.main-about__header-wrap--fourth {
+  position: relative;
+
+  &::after {
+    content: "";
+    border-bottom: 1px solid black;
+    opacity: 0.1;
+    width: 280px;
+    bottom: 10px;
+    left: 18px;
+    position: absolute;
+  }
+}
+
+.main-about__header-wrap--fifth {
+  padding-top: 16px;
+  padding-bottom: 25px;
+}
+
+.main-about__header-wrap--bridge {
+  padding-top: 39px;
+  padding-bottom: 38px;
+  margin-bottom: 0;
+}
+
+.main-about__header-wrap--blue {
+  background-color: $main-blue;
+}
+
+.main-about__header-wrap--first {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../img/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 100% 36px;
+    width: 100%;
+    top: -21px;
+    left: 0;
+    height: 36px;
+  }
+}
+
+.main-about__advances {
+  list-style: none;
+  margin-top: 5px;
+  padding: 0;
+  margin-bottom: 37px;
+}
+
+.main-about__advantage--housing svg {
+  width: 37px;
+  height: 36px;
+  margin-left: 7%;
+  margin-top: 6%;
+}
+
+.main-about__advantage--souvenirs svg {
+  width: 40px;
+  height: 40px;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.main-about__advantage--food svg {
+  width: 39px;
+  height: 44px;
+  margin-left: 6%;
+  margin-top: 6%;
+}
+
+.main-about__advantage {
+  display: flex;
+}
+
+.main-about__advantage-heading {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+  color: $main-black;
+  margin-top: 27px;
+  margin-bottom: 15px;
+}
+
+.main-about__cinema {
+  padding-left: 0;
+}
+
+.main-about__advantage-description {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: $light-black;
+  max-width: 210px;
+  display: block;
+}
+
+.main-about__img {
+  width: 100%;
+}
+
+.main-about__sights {
+  width: 260px;
+}
+
+.main-about__advantage-wrap {
+  margin-left: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-about__description {
+    padding-top: 20px;
+  }
+
+  .main-about__description--fifth {
+    padding-top: 20px;
+  }
+
+  .main-about__advantage-heading {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 19px;
+  }
+
+  .main-about__cinema {
+    padding-left: 25px;
+  }
+
+  .main-about__img {
+    height: 258px;
+  }
+
+  .main-about__image {
+    flex: 2 0 auto;
+    height: 258px;
+  }
+
+  .main-about__heading {
+    font-size: 21px;
+    max-width: 490px;
+    margin-top: 47px;
+    line-height: 1.24;
+    margin-bottom: 29px;
+  }
+
+  .main-about__subheading {
+    font-size: 14px;
+    line-height: 1.86;
+    max-width: 490px;
+    margin-bottom: 50px;
+  }
+
+  .main-about__description-wrap {
+    display: flex;
+  }
+
+  .main-about__header-wrap--blue {
+    padding: 45px 45px 0;
+    width: 256px;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+  }
+
+  .main-about__header {
+    font-size: 21px;
+    line-height: 1.3;
+  }
+
+  .main-about__description-wrap--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .main-about__life {
+    width: 162px;
+    padding-top: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .main-about__advances {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0 60px 0;
+    padding: 0;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .main-about__advantage {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-about__list--subdivided {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-about__description--sundivided {
+    width: 160px;
+  }
+
+  .main-about__header--subdivided {
+    max-width: 130px;
+  }
+
+  .main-about__element--subdivided {
+    width: 33.3333%;
+    height: auto;
+    background-color: #ededed;
+  }
+
+  .main-about__local {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  .main-about__description--bridge {
+    max-width: 155px;
+    padding-top: 22px;
+    padding-right: 8px;
+  }
+
+  .main-about__devil {
+    width: 150px;
+  }
+
+  .main-about__header-wrap--third,
+  .main-about__header-wrap--fourth,
+  .main-about__header-wrap--fifth {
+    padding-top: 44px;
+    padding-bottom: 45px;
+
+    &::after {
+      border: none;
+    }
+  }
+
+  .main-about__description--third {
+    width: 145px;
+  }
+
+  .main-about__advantage--housing {
+    order: 1;
+  }
+
+  .main-about__advantage--housing svg {
+    width: 75px;
+    height: 72px;
+    margin-left: 27%;
+    margin-top: 29%;
+    display: block;
+  }
+
+  .main-about__advantage--souvenirs {
+    order: 3;
+  }
+
+  .main-about__advantage--souvenirs svg {
+    width: 77px;
+    height: 85px;
+    margin-left: 30%;
+  }
+
+  .main-about__advantage--food {
+    order: 2;
+  }
+
+  .main-about__advantage--food svg {
+    width: 130px;
+    height: 75px;
+    margin-left: 12%;
+  }
+
+  .main-about__header-wrap--first {
+    &::before {
+      display: none;
+    }
+  }
+
+  .main-about__upset {
+    padding-left: 0;
+    display: block;
+  }
+
+  .main-about__housing {
+    max-width: 160px;
+    margin-left: 3%;
+  }
+
+  .main-about__burger {
+    max-width: 165px;
+    margin-left: 8%;
+  }
+
+  .main-about__china {
+    max-width: 165px;
+  }
+
+  .main-about__advantage-wrap {
+    margin-left: 0;
+  }
+
+  .main-about__white {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-about__header-wrap--blue {
+    width: 400px;
+    flex: 0 0 auto;
+    padding: 40px 45px 0;
+  }
+
+  .main-about__white {
+    padding: 0 75px;
+    padding-top: 10px;
+    color: $white;
+  }
+
+  .main-about__life {
+    width: 265px;
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+
+  .main-about__description--bridge {
+    max-width: 220px;
+    padding: 0;
+    padding-top: 25px;
+  }
+
+  .main-about__advantage-heading {
+    margin-top: 23px;
+  }
+
+  .main-about__advances {
+    margin: 50px 0 80px 0;
+    align-items: stretch;
+  }
+
+  .main-about__cinema {
+    padding: 0;
+  }
+
+  .main-about__motel {
+    padding-left: 40px;
+  }
+
+  .main-about__housing {
+    max-width: 260px;
+  }
+
+  .main-about__advantage--housing svg {
+    margin-left: 36%;
+    margin-top: 10px;
+  }
+
+  .main-about__advantage--food svg {
+    margin-left: 25%;
+    margin-top: 11px;
+  }
+
+  .main-about__advantage--souvenirs svg {
+    margin-left: 33%;
+    margin-top: 0;
+  }
+
+  .main-about__burger {
+    max-width: 285px;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .main-about__upset {
+    padding-left: 67px;
+  }
+
+  .main-about__china {
+    max-width: 220px;
+    padding-right: 25px;
+  }
+
+  .main-about__local {
+    text-align: left;
+  }
+
+  .main-about__not-only-chinese {
+    padding-left: 26px;
+  }
+
+  .main-about__food {
+    margin-right: 17px;
+    margin-top: 20px;
+  }
+
+  .main-about__souvenirs {
+    margin-right: 26px;
+    margin-top: 20px;
+  }
+
+  .main-about__description--sundivided {
+    width: 305px;
+  }
+
+  .main-about__description--third {
+    width: 265px;
+  }
+
+  .main-about__header-wrap--third,
+  .main-about__header-wrap--fourth,
+  .main-about__header-wrap--fifth {
+    padding-bottom: 65px;
+  }
+
+  .main-about__heading {
+    margin-top: 48px;
+  }
+
+  .main-about__img {
+    width: 100%;
+  }
+
+  .main-about__subheading {
+    margin-bottom: 47px;
+  }
+}
+
+.main-about__white {
+  color: $white;
+}
