@@ -1,0 +1,17 @@
+.container {
+  max-width: 320px;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2), -5px 0 15px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    max-width: 1200px;
+  }
+}

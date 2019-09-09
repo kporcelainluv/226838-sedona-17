@@ -3,7 +3,7 @@
   position: relative;
   z-index: -1;
 
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -30,8 +30,6 @@
     background-image: url("../img/download.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
-    left: 50%;
-    transform: translate(-50%, 0);
   }
 }
 
@@ -42,10 +40,9 @@
 
 .hero__welcome {
   display: block;
-  position: absolute;
-  top: 90px;
-  left: 50%;
-  transform: translate(-50%, 0);
+  position: static;
+  margin: 0 auto;
+  padding-top: 90px;
   width: 281px;
   height: 214px;
 }
@@ -76,9 +73,9 @@
   }
 
   .hero__welcome {
-    top: 75px;
     width: 460px;
     height: 350px;
+    padding-top: 75px;
   }
 
   .hero--main {
@@ -102,7 +99,7 @@
       height: 57px;
       background-position: 50% bottom;
       z-index: 10000;
-      bottom: 0%;
+      bottom: 0;
       background-repeat: repeat-y;
       top: 243px;
     }
